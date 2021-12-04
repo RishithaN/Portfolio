@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro");
+
+/*Content*/
+
+
+body {
+    overflow-x: hidden;
+    background: #a8d0e6;
+    color: white;
+    font: 1em/1.4 "lato";
+}
+
+.rightNavBar {
+
+    float: right;
+    margin-top: 25px;
+    margin-right: 35px;
+    font-size: 20px;
+
+
+}
+
+.rightNavBar a{
+
+    text-decoration: none;
+    margin: 10px;
+    text-align: center;
+    padding: 14px 16px;
+    color: #24305e;
+  
+    
+    
+}
+
+.rightNavBar a:hover{
+
+    font-family: 'Lato', sans-serif;
+    background-color: #111;;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+#heading {
+
+  margin: auto;
+  width: 800px;
+  padding-top: 100px;
+
+}
+
+#heading img{
+  width: 100%;
+  height: auto;
+}
+
+/* Type writer effect */
+
+ 
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    /* border-right: 2px solid black; */
+    font-size: 180%;
+    text-align: center;
+    margin-top: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);   
+    color: #24305e; 
+}
+
+/* Animation */
+/* .anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: black;}
+  to{border-right-color: transparent;}
+} */
+
+
+.titles {
+  font-size: 40px;
+  margin-top: 200px;
+  margin-left: 150px;
+  font-family: 'Proza Libre', sans-serif;
+  color: black;
+}
+
+.aboutWebsite {
+
+  font-size: 25px;
+  color: #374785;
+  margin-left: 150px;
+  margin-right: 150px;
+
+}
+
+
+@media (max-width: 900px) {
+
+  #searchBar{
+    visibility: hidden;
+  }
+
+
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+	.aboutWebsite {
+      font-size: 20px;
+      margin-right: 70px;
+      margin-left: 75px;
+	}
+
+  .titles{
+      font-size: 25px;
+      margin-right: 70px;
+      margin-left: 50px;
+  }
+
+  .line-1{
+      font-size: 18px;
+  }
+
+  #heading { 
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #heading img{
+    width: 100%;
+    height: auto;
+  }
+
+  .rightNavBar a{
+    font-size: 15px;
+  }
+
+  #searchBar{
+    visibility: hidden;
+  }
+
+
+
+}
+

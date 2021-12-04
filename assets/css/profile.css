@@ -1,0 +1,195 @@
+.inputAdd{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: block;
+  }
+  
+  button {
+    background-color: #f76c6c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+ 
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .cancelbtn1 {
+    padding: 14px 20px;
+    background-color: #24305e;
+  }
+  
+  
+  .cancelbtn1, .signupbtn1 {
+    float: left;
+    width: 50%;
+  }
+  
+ 
+  .modalContainer {
+    padding: 16px;
+    color: black;
+    margin-bottom: 50px;
+  }
+
+  
+  .modal1 {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+  }
+  
+  
+  .modal-content1 {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 50%; 
+  }
+  
+  
+  .close1 {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close1:hover,
+  .close1:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  
+  .animate1 {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+
+
+  .profileEdit{
+    margin: 20px;
+    font-size:24px; 
+    color:white;
+    margin-left: 250px;
+  }
+  
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn1 {
+       width: 100%;
+    }
+  }
+  
+  
+  
+  @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+
+
+.card{
+
+  width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  
+}
+
+.profilecard {
+	width: auto;
+	min-width: 400px;
+	max-width: 480px;
+	height: auto;
+	background: #a8d0e6;
+	color: #272727;
+	padding: 50px;
+	box-shadow: 0px 7px 24px rgba(100, 100, 100, 0.4);
+}
+
+.card_text p {
+	font-size: 30px;
+	font-family: "Vollkorn", serif;
+	font-weight: 400;
+	color: #3f3f55;
+	text-align: left;
+}
+
+.card_text p{
+	display: inline;
+	color: black;
+}
+
+
+
+.cardinfo {
+	display: flex;
+	flex-direction: row;
+	padding-top: 24px;
+	margin-top: 12px;
+	align-items: center;
+}
+
+
+
+.loginhere{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.loginhere a {
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 18px;
+	color: #24305e;
+}
+
+.loginhere a:hover , #logout{
+  color: #f76c6c;
+}
+
+#logout{
+  color: white;
+}
+
+#logout:hover{
+  background-color: #24305e;;
+}
